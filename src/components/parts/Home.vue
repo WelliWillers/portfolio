@@ -85,7 +85,7 @@ export default {
         grid-template-columns: max-content;
         row-gap: 1rem;
     }
-    .home__social-icon{
+    .home__social-icon {
         font-size: 1.25rem;
         color: var(--first-color);
     }
@@ -115,9 +115,9 @@ export default {
         margin-bottom: var(--mb-2);
     }
 
-    .home__scroll{
-        /* display: none; */
-    }
+    /* .home__scroll{
+        display: none;
+    } */
     .home__scroll-button{
         color: var(--first-color);
         transition: .3s;
