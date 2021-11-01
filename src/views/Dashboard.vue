@@ -7,14 +7,10 @@
         <home-page/>
 
         <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-
-        </section>
+        <about-page/>
 
         <!--==================== SKILLS ====================-->
-        <section class="skills section" id="skills">
-
-        </section>
+        <skills-page/>
 
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section">
@@ -53,10 +49,14 @@
 
 <script>
 import Home from '@/components/parts/Home';
+import About from '@/components/parts/About';
+import Skills from '@/components/parts/Skills';
 
 export default {
   components: {
-    'home-page': Home
+    'home-page': Home,
+    'about-page': About,
+    'skills-page': Skills,
   }
 }
 </script>

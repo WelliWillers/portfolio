@@ -1,65 +1,38 @@
 <template>
-    <section class="home section" id="home">
-        <div class="home__container container grid">
-            <div class="home__content grid">
-                <div class="home__social">
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="whatsapp-alt"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="linkedin" ></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="facebook"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="instagram-alt"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="telegram"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="skype"></unicon>
-                    </a>
+    <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+            <img src="@/assets/img/about.jpg" alt="" class="about__img">
+
+            <div class="about__data">
+                <p class="about__description">
+                    First I will introduce myself. My name is Wellington Willers I'm 22 years old and I work in the junior developer business in a small company in the region where 
+                    I live, a while ago I studied architecture but programming is the area that fills my heart, since then I've been studying ReactJs and NextJs to one day enter this job market.<br><br>
+                    In the repositories below you will see many of my studies, individual and many projects developed during Ignite, offered by Rocketseat company.
+                </p>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">08+</span>
+                        <span class="about__info-name">anos <br> experiência</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">08+</span>
+                        <span class="about__info-name">anos <br> experiência</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">08+</span>
+                        <span class="about__info-name">anos <br> experiência</span>
+                    </div>
                 </div>
 
-                <div class="home__img">
-                    <svg class="home__bolb" viewBox="0 0 200 187">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home__blob-img" x="11" y="18" xlink:href="../../assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-  
-                </div>
-
-
-                <div class="home__data">
-                    <h1 class="home__title">Hi, I'am Wellington</h1>
-                    <h3 class="home__subtitle">adwaw daw </h3>
-                    <p class="home__description">anb dawgd hbwakjd habwdh bahjwdb hkawbdgh awhjbd gvawg dbvgaw yw fhdsbflh beshtb hjewbf sgh bfwheb fyiw</p>
-                    <a href="#contact" class="button button--flex">
-                        Contact Me
-                        <i class="uil uil-message button__icon"></i>
+                <div class="about__buttons">
+                    <a href="@/assets/pdf/Alexa-Cv.pdf" download="" class="button button--flex">
+                        Download CV <i class="uil uil-file-download-alt about__icon"></i>
                     </a>
                 </div>
-            </div>
-
-            <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Scroll Down</span>
-                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                </a>
             </div>
         </div>
     </section>
@@ -67,96 +40,44 @@
 
 <script>
 export default {
-    name: "home-page"
+    name: "about-page"
 }
 </script>
 
 <style>
-    .home__container{
-        gap: 1rem;
-    }
-    .home__content{
-        grid-template-columns: .5fr 3fr;
-        padding-top: 3.5rem;
-        align-items: center;
-    }
-    .home__social{
-        display: grid;
-        grid-template-columns: max-content;
-        row-gap: 1rem;
-    }
-    .home__social-icon{
-        font-size: 1.25rem;
-        color: var(--first-color);
-    }
-    .home__social-icon:hover{
-        color: var(--first-color-alt);
-    }
-    .home__blob{
+    .about__img{
         width: 200px;
-        fill: var(--first-color);
-    }
-    .home__blob-img{
-        width: 170px;
-    }
-    .home__data{
-        grid-column: 1/3;
-    }
-    .home__title{
-        font-size: var(--big-font-size);
-    }
-    .home__subtitle{
-        font-size: var(--h3-font-size);
-        color: var(--text-color); 
-        font-weight: var(--font-medium);
-        margin-bottom: var(--mb-0-75);
-    }
-    .home__description{
-        margin-bottom: var(--mb-2);
-    }
-
-    .home__scroll{
-        /* display: none; */
-    }
-    .home__scroll-button{
-        color: var(--first-color);
-        transition: .3s;
-    }
-    .home__scroll-button:hover{
-        transform: translateY(.25rem);
-    }
-    .home__scroll-mouse{
-        font-size: 2rem;
-    }
-    .home__scroll-name{
-        font-size: var(--small-font-size);
-        color: var(--title-color); 
-        font-weight: var(--font-medium);
-    }
-    .home__scroll-arrow {
-        font-size: 1.2rem;
-    }
-
-    .button {
-        display: inline-block;
-        background-color: var(--first-color);
-        color: #fff;
-        padding: 1rem;
         border-radius: .5rem;
-        font-weight: var(--font-medium);
+        justify-self: center;
+        align-self: center;
     }
-    .button:hover {
-        filter: brightness(.9);
+    .about__description{
+        text-align: center;
+        margin-bottom: var(--mb-2-5);
     }
-    .button__icon {
-        font-size: 1.25rem;
-        margin-left: var(--mb-0-5);
-        transition: .3s;
+    .about__info{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: var(--mb-2-5);
     }
-    .button--flex {
-        display: inline-flex;
-        align-items: center;
+    .about__info-title {
+        font-size: var(--h2-font-size);
+        font-weight: var(--font-semi-bold);
+        color: var(--title-color);
     }
-
-
+    .about__info-title, .about__info-name {
+        display: block;
+        text-align: center;
+    }
+    .about__info-name{
+        font-size:var(--smaller-font-size);
+    }
+    .about__buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .about__icon{
+        font-size: 1.5rem;
+        margin-left: .5rem;
+    }
 </style>

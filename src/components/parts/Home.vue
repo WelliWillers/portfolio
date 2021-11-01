@@ -16,10 +16,10 @@
                         <i class="uil uil-instagram-alt"></i>
                     </a>
                     <a href="#0" target="_blank" class="home__social-icon">
-                        <i class="uil uil-facebook"></i>
+                        <i class="uil uil-skype"></i>
                     </a>
                     <a href="#0" target="_blank" class="home__social-icon">
-                        <i class="uil uil-facebook"></i>
+                        <i class="uil uil-telegram"></i>
                     </a>
                 </div>
 
@@ -115,9 +115,9 @@ export default {
         margin-bottom: var(--mb-2);
     }
 
-    /* .home__scroll{
+    .home__scroll{
         display: none;
-    } */
+    }
     .home__scroll-button{
         color: var(--first-color);
         transition: .3s;
