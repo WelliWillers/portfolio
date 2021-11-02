@@ -1,67 +1,126 @@
 <template>
-    <section class="home section" id="home">
-        <div class="home__container container grid">
-            <div class="home__content grid">
-                <div class="home__social">
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="whatsapp-alt"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="linkedin" ></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="facebook"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="instagram-alt"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="telegram"></unicon>
-                    </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
-                        <unicon name="skype"></unicon>
-                    </a>
-                </div>
+    <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My history</span>
 
-                <div class="home__img">
-                    <svg class="home__bolb" viewBox="0 0 200 187">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home__blob-img" x="11" y="18" xlink:href="../../assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-  
-                </div>
-
-
-                <div class="home__data">
-                    <h1 class="home__title">Hi, I'am Wellington</h1>
-                    <h3 class="home__subtitle">adwaw daw </h3>
-                    <p class="home__description">anb dawgd hbwakjd habwdh bahjwdb hkawbdgh awhjbd gvawg dbvgaw yw fhdsbflh beshtb hjewbf sgh bfwheb fyiw</p>
-                    <a href="#contact" class="button button--flex">
-                        Contact Me
-                        <i class="uil uil-message button__icon"></i>
-                    </a>
-                </div>
+    <div class="qualification__container container__page">
+        <div class="qualification__tabs">
+            <div class="qualification__button button--flex">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
             </div>
-
-            <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Scroll Down</span>
-                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                </a>
+            <div class="qualification__button button--flex">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Work
             </div>
         </div>
+
+
+        <div class="qualification__sections">
+            <div class="qualification__content">
+
+                <!-- qualificação 1 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">computer Engineering</h3>
+                        <span class="qualification__subtitle">Brasil - Univates</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009 - 2015
+                        </div>
+                    </div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!-- qualificação 2 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">computer Engineering</h3>
+                        <span class="qualification__subtitle">Brasil - Univates</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009 - 2015
+                        </div>
+                    </div>
+                </div>
+
+                <!-- qualificação 3 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">computer Engineering</h3>
+                        <span class="qualification__subtitle">Brasil - Univates</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009 - 2015
+                        </div>
+                    </div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="qualification__content">
+
+                <!-- qualificação 1 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">computer Engineering</h3>
+                        <span class="qualification__subtitle">Brasil - Univates</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009 - 2015
+                        </div>
+                    </div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!-- qualificação 2 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">computer Engineering</h3>
+                        <span class="qualification__subtitle">Brasil - Univates</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009 - 2015
+                        </div>
+                    </div>
+                </div>
+
+                <!-- qualificação 3 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">computer Engineering</h3>
+                        <span class="qualification__subtitle">Brasil - Univates</span>
+                        <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009 - 2015
+                        </div>
+                    </div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
 </template>
 
@@ -72,91 +131,52 @@ export default {
 </script>
 
 <style>
-    .home__container{
-        gap: 1rem;
-    }
-    .home__content{
-        grid-template-columns: .5fr 3fr;
-        padding-top: 3.5rem;
-        align-items: center;
-    }
-    .home__social{
-        display: grid;
-        grid-template-columns: max-content;
-        row-gap: 1rem;
-    }
-    .home__social-icon{
-        font-size: 1.25rem;
-        color: var(--first-color);
-    }
-    .home__social-icon:hover{
-        color: var(--first-color-alt);
-    }
-    .home__blob{
-        width: 200px;
-        fill: var(--first-color);
-    }
-    .home__blob-img{
-        width: 170px;
-    }
-    .home__data{
-        grid-column: 1/3;
-    }
-    .home__title{
-        font-size: var(--big-font-size);
-    }
-    .home__subtitle{
-        font-size: var(--h3-font-size);
-        color: var(--text-color); 
-        font-weight: var(--font-medium);
-        margin-bottom: var(--mb-0-75);
-    }
-    .home__description{
+    .qualification__tabs{
+        display: flex;
+        justify-content: space-evenly;
         margin-bottom: var(--mb-2);
     }
-
-    .home__scroll{
-        /* display: none; */
+    .qualification__button{
+        font-size: var(--h3-font-size);
+        font-weight: var(--font-medium);
+        cursor: pointer;
     }
-    .home__scroll-button{
+    .qualification__button:hover{
         color: var(--first-color);
-        transition: .3s;
     }
-    .home__scroll-button:hover{
-        transform: translateY(.25rem);
+    .qualification__icon{
+        font-size: 1.8rem;
+        margin-right: var(--mb0-25);
     }
-    .home__scroll-mouse{
-        font-size: 2rem;
+    .qualification__data{
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        column-gap: 1.5rem;
     }
-    .home__scroll-name{
-        font-size: var(--small-font-size);
-        color: var(--title-color); 
+    .qualification__title{
+        font-size: var(--normal-font-size);
         font-weight: var(--font-medium);
     }
-    .home__scroll-arrow {
-        font-size: 1.2rem;
-    }
-
-    .button {
+    .qualification__subtitle{
         display: inline-block;
+        font-size: var(--small-font-size);
+    }
+    .qualification__calendar{
+        font-size: var(--small-font-size);
+        color: var(--text-color-light);
+    }
+    .qualification__rounder{
+        display: inline-block;
+        width: 13px;
+        height: 13px;
         background-color: var(--first-color);
-        color: #fff;
-        padding: 1rem;
-        border-radius: .5rem;
-        font-weight: var(--font-medium);
+        border-radius: 50%;
     }
-    .button:hover {
-        filter: brightness(.9);
+    .qualification__line{
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: var(--first-color);
+        transform: translate(6px, -7px);
     }
-    .button__icon {
-        font-size: 1.25rem;
-        margin-left: var(--mb-0-5);
-        transition: .3s;
-    }
-    .button--flex {
-        display: inline-flex;
-        align-items: center;
-    }
-
-
 </style>

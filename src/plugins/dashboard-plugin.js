@@ -5,8 +5,10 @@ import lang from 'element-ui/lib/locale/lang/en';
 import locale from 'element-ui/lib/locale';
 locale.use(lang)
 
+import { BootstrapVue } from 'bootstrap-vue'
 
-
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import '@/assets/global.scss';
 
@@ -30,6 +32,7 @@ export default {
   install(Vue) {
     Vue.use(GlobalComponents);
     Vue.use(GlobalDirectives);
+    Vue.use(BootstrapVue)
     Vue.use(Unicon, { 
     fill: 'inherit',
     height: 24,

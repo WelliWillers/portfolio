@@ -94,12 +94,12 @@
 }
 
 /*==================== LAYOUT ====================*/
-.container {
+.container__page {
     max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
-.grid {
+.grid__page {
     display: grid;
     gap: 1.5rem;
 }

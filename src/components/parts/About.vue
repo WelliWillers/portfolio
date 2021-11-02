@@ -3,7 +3,7 @@
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
 
-        <div class="about__container container grid">
+        <div class="about__container container__page grid__page">
             <img src="@/assets/img/about.jpg" alt="" class="about__img">
 
             <div class="about__data">

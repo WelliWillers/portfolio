@@ -1,6 +1,6 @@
 <template>
     <header class="header" id="header">
-        <nav class="nav container">
+        <nav class="nav container__page">
             <a href="#" class="nav__logo">ALEXA</a>
 
             <div :class="[
@@ -8,7 +8,7 @@
                 {'show-menu': isOpen}
             ]" id="nav-menu">
                
-                <ul class="nav__list grid" v-click-outside="closeMenu">
+                <ul class="nav__list grid__page" v-click-outside="closeMenu">
                     <li class="nav__item">
                         <a href="#home" class="nav__link" @click="linkAction">
                             <unicon class="nav__icon" name="estate"></unicon> Home

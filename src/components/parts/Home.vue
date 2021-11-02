@@ -1,7 +1,7 @@
 <template>
     <section class="home section" id="home">
-        <div class="home__container container grid">
-            <div class="home__content grid">
+        <div class="home__container container__page grid__page">
+            <div class="home__content grid__page">
                 <div class="home__social">
                     <a href="#0" target="_blank" class="home__social-icon">
                         <i class="uil uil-whatsapp-alt"></i>
@@ -97,7 +97,7 @@ export default {
         fill: var(--first-color);
     }
     .home__blob-img{
-        width: 200px;
+        width: 200px !important;
     }
     .home__data{
         grid-column: 1/3;

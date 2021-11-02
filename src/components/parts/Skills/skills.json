@@ -1,0 +1,48 @@
+{
+    "skill-1": {
+        "id": 1,
+        "icon": "uil uil-brackets-curly",
+        "name": "FrontEnd",
+        "description": "More than 4 years",
+        "percents": {
+            "html": {
+                "name": "HTML",
+                "porcent": "95",
+                "variant": "success"
+            },
+            "css": {
+                "name": "CSS",
+                "porcent": "60",
+                "variant": "warning"
+            },
+            "react": {
+                "name": "REACT",
+                "porcent": "95",
+                "variant": "success"
+            },
+            "vue": {
+                "name": "VUE",
+                "porcent": "95",
+                "variant": "success"
+            }
+        }
+    },
+    "skill-2": {
+        "id": 2,
+        "icon": "uil uil-server-network-alt",
+        "name": "BackEnd",
+        "description": "More than 2 years",
+        "percents": {
+            "php": {
+                "name": "PHP",
+                "porcent": "15",
+                "variant": "danger"
+            },
+            "node": {
+                "name": "NODE JS",
+                "porcent": "95",
+                "variant": "success"
+            }
+        }
+    }
+}
