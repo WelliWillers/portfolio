@@ -21,7 +21,7 @@ jobs:
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
           git config --global user.email $email
           git config --global user.name $username
-      - name: deploy
+      - name: Deploy
         run: |
           npm i
           NODE_ENV=production npm run build
@@ -29,4 +29,4 @@ jobs:
           git init
           git add -A
           git commit -m "Deploy id: ${GITHUB_RUN_ID}"
-          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" main:gh-pages
+          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" master:gh-pages
