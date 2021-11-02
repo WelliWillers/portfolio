@@ -67,8 +67,7 @@
                 this.isOpen = false;
             },
             closeMenu() {
-                console.log('close event called')
-                // this.isOpen = false;
+                this.isOpen = false;
             }
         }
     }
