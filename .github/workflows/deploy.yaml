@@ -23,7 +23,7 @@ jobs:
           git config --global user.name $username
       - name: Deploy
         run: |
-          npm i
+          npm install
           NODE_ENV=production npm run build
           cd dist
           git init
