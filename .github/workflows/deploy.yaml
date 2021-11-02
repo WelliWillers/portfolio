@@ -27,6 +27,7 @@ jobs:
           NODE_ENV=production npm run build
           cd dist
           git init
+          git branch -M main-deploy
           git add -A
           git commit -m "Deploy id: ${GITHUB_RUN_ID}"
           git push -f "https://github.com/${GITHUB_REPOSITORY}.git" main:main-deploy
