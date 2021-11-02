@@ -26,11 +26,8 @@ jobs:
           npm i
           NODE_ENV=production npm run build
           cd dist
-
           git init
-          git add .
-          git add README.md
-          git commit -m "Deploy id: ${GITHUB_RUN_ID}"
           git branch -M main-deploy
-          git remote add origin https://github.com/${GITHUB_REPOSITORY}.git
-          git push -u origin main-deploy
+          git add -A
+          git commit -m "Deploy id: ${GITHUB_RUN_ID}"
+          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" main:main-deploy
