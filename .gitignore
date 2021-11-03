@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-
+.github/workflows/deploy.yaml
 
 # local env files
 .env.local
