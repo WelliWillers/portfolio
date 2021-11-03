@@ -3,130 +3,159 @@
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My history</span>
 
-    <div class="qualification__container container__page">
-        <div class="qualification__tabs">
-            <div class="qualification__button button--flex">
-                <i class="uil uil-graduation-cap qualification__icon"></i>
-                Education
+        <div class="qualification__container container__page">
+            <div class="qualification__tabs">
+                <div :class="['qualification__button', 'button--flex', {qualification__active:education}]" @click.prevent="category">
+                    <i class="uil uil-graduation-cap qualification__icon"></i>
+                    Education
+                </div>
+                <div :class="['qualification__button', 'button--flex', {qualification__active:work}]" @click.prevent="category">
+                    <i class="uil uil-briefcase-alt qualification__icon"></i>
+                    Work
+                </div>
             </div>
-            <div class="qualification__button button--flex">
-                <i class="uil uil-briefcase-alt qualification__icon"></i>
-                Work
+
+
+            <div class="qualification__sections">
+                <div class="qualification__content" v-if="education">
+
+                    <!-- qualificação 1 -->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">computer Engineering</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 2 -->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">computer Engineering</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 3 -->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">computer Engineering</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="qualification__content" v-if="work">
+
+                    <!-- qualificação 1 -->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">computer awdwadaw</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 2 -->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">computer Engineering</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 3 -->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">computer Engineering</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    
+                    <!-- qualificação 4 -->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">computer Engineering</h3>
+                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="qualification__sections">
-            <div class="qualification__content">
-
-                <!-- qualificação 1 -->
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">computer Engineering</h3>
-                        <span class="qualification__subtitle">Brasil - Univates</span>
-                        <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2009 - 2015
-                        </div>
-                    </div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
-                    </div>
-                </div>
-
-                <!-- qualificação 2 -->
-                <div class="qualification__data">
-                    <div></div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="qualification__title">computer Engineering</h3>
-                        <span class="qualification__subtitle">Brasil - Univates</span>
-                        <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2009 - 2015
-                        </div>
-                    </div>
-                </div>
-
-                <!-- qualificação 3 -->
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">computer Engineering</h3>
-                        <span class="qualification__subtitle">Brasil - Univates</span>
-                        <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2009 - 2015
-                        </div>
-                    </div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="qualification__content">
-
-                <!-- qualificação 1 -->
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">computer Engineering</h3>
-                        <span class="qualification__subtitle">Brasil - Univates</span>
-                        <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2009 - 2015
-                        </div>
-                    </div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
-                    </div>
-                </div>
-
-                <!-- qualificação 2 -->
-                <div class="qualification__data">
-                    <div></div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="qualification__title">computer Engineering</h3>
-                        <span class="qualification__subtitle">Brasil - Univates</span>
-                        <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2009 - 2015
-                        </div>
-                    </div>
-                </div>
-
-                <!-- qualificação 3 -->
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">computer Engineering</h3>
-                        <span class="qualification__subtitle">Brasil - Univates</span>
-                        <div class="qualification__calendar">
-                            <i class="uil uil-calendar-alt"></i>
-                            2009 - 2015
-                        </div>
-                    </div>
-                    <div>
-                        <span class="qualification__rounder"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     </section>
 </template>
 
 <script>
 export default {
-    name: "home-page"
+    name: "home-page",
+    data(){
+        return {
+            education: true,
+            work: false,
+        }
+    },
+    methods: {
+        category(){
+            this.education = !this.education;
+            this.work = !this.work;
+        }
+    }
 }
 </script>
 
@@ -141,7 +170,8 @@ export default {
         font-weight: var(--font-medium);
         cursor: pointer;
     }
-    .qualification__button:hover{
+    .qualification__button:hover,
+    .qualification__active{
         color: var(--first-color);
     }
     .qualification__icon{

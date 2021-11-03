@@ -16,9 +16,7 @@
         <qualification-page/>
 
         <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-
-        </section>
+        <services-page/>
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
@@ -50,6 +48,7 @@ import Home from '@/components/parts/Home';
 import About from '@/components/parts/About';
 import Skills from '@/components/parts/Skills/Skills';
 import Qualification from '@/components/parts/Qualification.vue';
+import Services from '@/components/parts/Services.vue';
 
 export default {
   components: {
@@ -57,6 +56,7 @@ export default {
     'about-page': About,
     'skills-page': Skills,
     'qualification-page': Qualification,
+    'services-page': Services,
   }
 }
 </script>

@@ -15,14 +15,13 @@ jobs:
         env:
           email: 'wellington.willers@gmail.com'
           username: 'WelliWillers'
-          access_token: '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'
+          access_token: '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'
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
           git config --global user.email $email
           git config --global user.name $username
-          git config --global init.defaultBranch master
-      - name: Deploy master
+      - name: Deploy to gh-pages
         run: |
           npm install
           NODE_ENV=production npm run build
