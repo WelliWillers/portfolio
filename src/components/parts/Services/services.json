@@ -1,0 +1,24 @@
+{
+    "service-01": {
+        "id": 1,
+        "icon": "uil uil-web-grid",
+        "title": "Ui/Ux Designs",
+        "services": {
+            "items-01": "as adjwhahdwjka",
+            "items-02": "as adjwhahdwjk aas dawdawdsad s asdawd asd wad sad a awd wd asd d",
+            "items-03": "as adjwhahdwjka",
+            "items-04": "as adjwhahdwjka"
+        }
+    },
+    "service-02": {
+        "id": 2,
+        "icon": "uil uil-arrow",
+        "title": "FrontEnd Dev",
+        "services": {
+            "items-01": "as adjwhahdwjka",
+            "items-02": "as adjwhahdwjka",
+            "items-03": "as adjwhahdwjka",
+            "items-04": "as adjwhahdwjka"
+        }
+    }
+}

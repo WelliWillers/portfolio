@@ -48,7 +48,7 @@ import Home from '@/components/parts/Home';
 import About from '@/components/parts/About';
 import Skills from '@/components/parts/Skills/Skills';
 import Qualification from '@/components/parts/Qualification.vue';
-import Services from '@/components/parts/Services.vue';
+import Services from '@/components/parts/Services/Services.vue';
 
 export default {
   components: {

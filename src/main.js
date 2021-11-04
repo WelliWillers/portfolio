@@ -9,7 +9,6 @@ Vue.use(DashboardPlugins);
 
 Vue.config.productionTip = false
 
-
 new Vue({
   router,
   store,

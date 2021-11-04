@@ -4,7 +4,7 @@
         @click="toggleSkill"
     >
         <div class="skills__header">
-            <i :class="[skill.icon, 'skills__icon'] "></i>
+            <i :class="[skill.icon, 'skills__icon']"></i>
 
             <div>
                 <h1 class="skills__title">{{skill.name}}</h1>

@@ -13,20 +13,20 @@ jobs:
           node-version: '12'
       - name: setup git auth
         env:
-          email: 'wellington.willers@gmail.com'
-          username: 'WelliWillers'
-          access_token: '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'
+          email: ${{ process.env.AUTH_EMAIL }}
+          username: '${{ process.env.AUTH_USERNAME }}'
+          access_token: '${{ process.env.AUTH_ACCESS_TOKEN }}'
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
           git config --global user.email $email
           git config --global user.name $username
-      - name: Deploy to gh-pages
+      - name: deploy to gh-pages
         run: |
-          npm install
+          npm i
           NODE_ENV=production npm run build
           cd dist
           git init
           git add -A
-          git commit -m "Deploy id: ${GITHUB_RUN_ID}"
+          git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
           git push -f "https://github.com/${GITHUB_REPOSITORY}.git" master:gh-pages

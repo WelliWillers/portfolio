@@ -154,6 +154,8 @@ export default {
         category(){
             this.education = !this.education;
             this.work = !this.work;
+
+            console.log(process.env.AUTH_EMAIL)
         }
     }
 }

@@ -137,26 +137,7 @@ export default {
         font-size: 1.2rem;
     }
 
-    .button {
-        display: inline-block;
-        background-color: var(--first-color);
-        color: #fff;
-        padding: 1rem;
-        border-radius: .5rem;
-        font-weight: var(--font-medium);
-    }
-    .button:hover {
-        filter: brightness(.9);
-    }
-    .button__icon {
-        font-size: 1.25rem;
-        margin-left: var(--mb-0-5);
-        transition: .3s;
-    }
-    .button--flex {
-        display: inline-flex;
-        align-items: center;
-    }
+    
 
 
 </style>
