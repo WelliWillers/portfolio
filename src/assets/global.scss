@@ -20,7 +20,6 @@ body {
 h1,h2,h3,h4{
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
-
 }
 
 ul {
@@ -36,11 +35,6 @@ a, a:hover {
 img {
    max-width: 100%;
    height: auto; 
-}
-
-
-.unicon {
-    display: inline-block !important;
 }
 
 @import "custom/variables";

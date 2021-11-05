@@ -104,20 +104,6 @@
     gap: 1.5rem;
 }
 
-/*==================== NAV ====================*/
-
-
-/* show menu */
-
-
-/* Active link */
-
-
-/* Change background header */
-
-
-/*==================== HOME ====================*/
-
 
 /*==================== BUTTONS ====================*/
 .button {
@@ -130,15 +116,23 @@
 }
 .button:hover {
     filter: brightness(.9);
+    color: var(--first-color-lighter);
 }
 .button__icon {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
-    transition: .3s;
+    transition: .1s;
 }
 .button--flex {
     display: inline-flex;
     align-items: center;
+}
+.button--white {
+    background-color: #fff;
+    color: var(--first-color);
+}
+.button--white:hover {
+    filter: brightness(.9);
 }
 .button--small {
     padding: .75rem 1rem;
@@ -153,51 +147,3 @@
     background-color: transparent;
     color: var(--first-color-alt);
 }
-
-/*==================== ABOUT ====================*/
-
-
-/*==================== SKILLS ====================*/
-
-
-/*==================== QUALIFICATION ====================*/
-
-
-/*==================== SERVICES ====================*/
-
-
-/* Active Modal */
-
-
-/*==================== PORTFOLIO ====================*/
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== CONTACT ME ====================*/
-
-
-/*==================== FOOTER ====================*/
-
-
-/*========== SCROLL UP ==========*/
-
-
-/* Show scroll */
-
-
-/*========== SCROLL BAR ==========*/
-
-
-/*==================== MEDIA QUERIES ====================*/
-/* For small devices */
-
-
-/* For medium devices */
-
-
-/* For large devices */

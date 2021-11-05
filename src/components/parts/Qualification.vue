@@ -163,7 +163,9 @@ export default {
 
 <style>
     .qualification__tabs{
+        width: 100%;
         display: flex;
+        gap: 1rem;
         justify-content: space-evenly;
         margin-bottom: var(--mb-2);
     }
