@@ -11,8 +11,10 @@
                 <span class="portfolio__item" data-filter=".uiux">Ui/Ux</span>
                 <span class="portfolio__item" data-filter=".app">App</span>
             </div>
-
-            <project-item v-for="project in projects" :key="project.id" :project="project"/>
+            
+            <div class="portfolio__grid-projects">
+                <project-item v-for="project in projects" :key="project.id" :project="project"/>
+            </div>
 
         </div>
     </section>
@@ -54,6 +56,11 @@ export default {
     }
     .portfolio__item:hover{
         color: var(--first-color);
+    }
+
+    .portfolio__grid-projects {
+        display: grid;
+        gap: 1.5rem;
     }
     
 </style>

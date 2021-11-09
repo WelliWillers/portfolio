@@ -1,10 +1,7 @@
 import GlobalComponents from './globalComponents';
 import GlobalDirectives from './globalDirectives';
-import Element from 'element-ui'
-import lang from 'element-ui/lib/locale/lang/en';
-import locale from 'element-ui/lib/locale';
-locale.use(lang)
-
+import Element  from 'element-ui'
+import locale from 'element-ui/lib/locale/lang/en';
 
 import { BootstrapVue } from 'bootstrap-vue'
 
@@ -35,10 +32,10 @@ export default {
     Vue.use(GlobalDirectives);
     Vue.use(BootstrapVue)
     Vue.use(Unicon, { 
-    fill: 'inherit',
-    height: 24,
-    width: 24
-  });
+      fill: 'inherit',
+      height: 24,
+      width: 24
+    });
     Vue.use(Element, { locale });
   }
 };

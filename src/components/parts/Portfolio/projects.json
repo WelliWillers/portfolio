@@ -2,17 +2,25 @@
     "projeto-01": {
         "id": 1,
         "img": "/img/portfolio3.jpg",
-        "title": "Post teste",
-        "subtitulo": "Ui/Ux Designs",
+        "title": "Vue JS",
+        "subtitle": "Fidem banc",
         "category": "web",
         "link": "#about"
     },
     "projeto-02": {
         "id": 2,
         "img": "/img/portfolio2.jpg",
-        "title": "Post teste 02",
-        "subtitulo": "Ui/Ux Designs",
+        "title": "React Native",
+        "subtitle": "App Gameplay",
         "category": "app",
+        "link": "#about"
+    },
+    "projeto-03": {
+        "id": 3,
+        "img": "/img/portfolio3.jpg",
+        "title": "Figma",
+        "subtitle": "App RekPay",
+        "category": "uiux",
         "link": "#about"
     }
 }

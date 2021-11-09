@@ -1,5 +1,5 @@
 <template>
-    <section class="qualification section" id="qualification">
+    <section class="qualification section">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My history</span>
 
@@ -21,7 +21,7 @@
 
                     <!-- qualificação 1 -->
                     <div class="qualification__data">
-                        <div>
+                        <div class="qualification__left">
                             <h3 class="qualification__title">computer Engineering</h3>
                             <span class="qualification__subtitle">Brasil - Univates</span>
                             <div class="qualification__calendar">
@@ -54,7 +54,7 @@
 
                     <!-- qualificação 3 -->
                     <div class="qualification__data">
-                        <div>
+                        <div class="qualification__left">
                             <h3 class="qualification__title">computer Engineering</h3>
                             <span class="qualification__subtitle">Brasil - Univates</span>
                             <div class="qualification__calendar">
@@ -73,7 +73,7 @@
 
                     <!-- qualificação 1 -->
                     <div class="qualification__data">
-                        <div>
+                        <div class="qualification__left">
                             <h3 class="qualification__title">computer awdwadaw</h3>
                             <span class="qualification__subtitle">Brasil - Univates</span>
                             <div class="qualification__calendar">
@@ -106,7 +106,7 @@
 
                     <!-- qualificação 3 -->
                     <div class="qualification__data">
-                        <div>
+                        <div class="qualification__left">
                             <h3 class="qualification__title">computer Engineering</h3>
                             <span class="qualification__subtitle">Brasil - Univates</span>
                             <div class="qualification__calendar">
@@ -143,7 +143,7 @@
 
 <script>
 export default {
-    name: "home-page",
+    name: "qualification-page",
     data(){
         return {
             education: true,
@@ -177,6 +177,9 @@ export default {
     .qualification__button:hover,
     .qualification__active{
         color: var(--first-color);
+    }
+    .qualification__left {
+        text-align: right;
     }
     .qualification__icon{
         font-size: 1.8rem;

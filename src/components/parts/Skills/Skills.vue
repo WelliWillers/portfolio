@@ -19,7 +19,7 @@ import skills from './skills.json'
 import SkillsParts from './SkillsParts'
 
 export default {
-    name: "about-page",
+    name: "skills-page",
     components: {
         SkillsParts
     },

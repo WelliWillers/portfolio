@@ -3,28 +3,28 @@
         <div class="home__container container__page grid__page">
             <div class="home__content grid__page">
                 <div class="home__social">
-                    <a href="#0" target="_blank" class="home__social-icon">
+                    <a href="https://api.whatsapp.com/send?phone=5551992618520&text=Hi%2C%20what's%20up%3F" target="_blank" class="home__social-icon">
                         <i class="uil uil-whatsapp-alt"></i>
                     </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
+                    <a href="https://www.linkedin.com/in/wellington-willers-24302b199/" target="_blank" class="home__social-icon">
                         <i class="uil uil-linkedin"></i>
                     </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
+                    <a href="https://www.facebook.com/wellington.willers" target="_blank" class="home__social-icon">
                         <i class="uil uil-facebook"></i>
                     </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
+                    <a href="https://www.instagram.com/wellington_willers/" target="_blank" class="home__social-icon">
                         <i class="uil uil-instagram-alt"></i>
                     </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
+                    <a href="live:.cid.50f86c077c64fe03" target="_blank" class="home__social-icon">
                         <i class="uil uil-skype"></i>
                     </a>
-                    <a href="#0" target="_blank" class="home__social-icon">
+                    <a href="https://msng.link/o/?@WelliWillers=tg" target="_blank" class="home__social-icon">
                         <i class="uil uil-telegram"></i>
                     </a>
                 </div>
 
                 <div class="home__img">
-                    <svg class="home__bolb" viewBox="0 0 200 187">
+                    <svg class="home__blob" viewBox="0 0 200 187">
                         <mask id="mask0" mask-type="alpha">
                             <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                             130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -77,7 +77,7 @@ export default {
     }
     .home__content{
         grid-template-columns: .5fr 3fr;
-        padding-top: 3.5rem;
+        padding-top: 1.5rem;
         align-items: center;
     }
     .home__social{
