@@ -58,7 +58,7 @@ export default {
 
 <style>
     .footer{
-        padding: 2rem 0;
+        padding: 0;
         text-align: center;
     }
     .footer__bg{
@@ -93,7 +93,7 @@ export default {
         font-size: var(--smaller-font-size);
         text-align: center;
         color: var(--text-color-lighter);
-        margin-bottom: var(--mb-3);
+        margin-top: var(--mb-3);
     }
     .footer__socials {
         display: flex;

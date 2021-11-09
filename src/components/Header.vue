@@ -209,11 +209,12 @@
 
                 .nav__close {
                     position: absolute;
-                    right: 1.5rem;    
-                    bottom: 0.2rem;    
+                    right: 1.2rem;    
+                    bottom: 0.4rem;    
                     font-size: 2rem;
                     cursor: pointer;
                     color: var(--first-color);
+                    font-size: 1.5rem;
 
                     &:hover {
                         color: var(--first-color-alt);

@@ -34,7 +34,7 @@
                 </a>
               </div>
 
-              <img src="/img/project.png" class="project__img" alt="">
+              <img src="@/assets/img/perfil.png" class="project__img" alt="">
             </div>
           </div>
         </section>
