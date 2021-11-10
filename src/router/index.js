@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Dashboard',
     component: Dashboard
+  },
+  {
+    path: '*',
+    name: 'Notfound',
+    component: Dashboard
   }
 ]
 
