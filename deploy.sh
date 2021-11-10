@@ -1,8 +1,6 @@
-#!/usr/bin/env sh
-
 set -e
 git add .
-git commit -m "Commit atualização"
+git commit -m "Commit de atualização"
 git push origin master
 
 npm run build
