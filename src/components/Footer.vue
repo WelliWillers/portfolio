@@ -3,7 +3,7 @@
         <div class="footer__bg">
             <div class="footer__container container__page grid__page">
                 <div>
-                    <h1 class="footer__title">Alexa</h1>
+                    <h1 class="footer__title">WELLINGTON</h1>
                     <span class="footer__subtitle">FrontEnd developer</span>
                 </div>
 
