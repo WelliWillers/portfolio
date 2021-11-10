@@ -7,7 +7,7 @@
 
             <el-carousel trigger="click">
                 
-                <el-carousel-item height="250px">
+                <el-carousel-item height="200px">
                     <div class="testimonial__content">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
@@ -31,7 +31,7 @@
                         </p>
                     </div>
                 </el-carousel-item>
-                <el-carousel-item height="250px">
+                <el-carousel-item height="200px">
                     <div class="testimonial__content">
                         <div class="testimonial__data">
                             <div class="testimonial__header">

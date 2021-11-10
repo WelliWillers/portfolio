@@ -15,9 +15,6 @@
                     <a href="https://www.instagram.com/wellington_willers/" target="_blank" class="home__social-icon">
                         <i class="uil uil-instagram-alt"></i>
                     </a>
-                    <a href="live:.cid.50f86c077c64fe03" target="_blank" class="home__social-icon">
-                        <i class="uil uil-skype"></i>
-                    </a>
                     <a href="https://msng.link/o/?@WelliWillers=tg" target="_blank" class="home__social-icon">
                         <i class="uil uil-telegram"></i>
                     </a>
@@ -45,16 +42,17 @@
 
                 <div class="home__data">
                     <h1 class="home__title">Hi, I'am Wellington</h1>
-                    <h3 class="home__subtitle">adwaw daw </h3>
-                    <p class="home__description">anb dawgd hbwakjd habwdh bahjwdb hkawbdgh awhjbd gvawg dbvgaw yw fhdsbflh beshtb hjewbf sgh bfwheb fyiw</p>
-                    <a href="#contact" class="button button--flex">
-                        Contact Me
-                        <i class="uil uil-message button__icon"></i>
-                    </a>
+                    <h3 class="home__subtitle">FrontEnd Development</h3>
+                    <p class="home__description">Right now I'm focused on learning vue js for front end and also learning more about Node js to work with backend in future projects.</p>
+                    
                 </div>
             </div>
 
             <div class="home__scroll">
+                <a href="#contactme" class="button button--flex">
+                    Contact Me
+                    <i class="uil uil-message button__icon"></i>
+                </a>
                 <a href="#about" class="home__scroll-button button--flex">
                     <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                     <span class="home__scroll-name">Scroll Down</span>
@@ -116,7 +114,9 @@ export default {
     }
 
     .home__scroll{
-        display: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
     }
     .home__scroll-button{
         color: var(--first-color);

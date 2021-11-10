@@ -8,15 +8,15 @@
 
             <div class="about__data">
                 <p class="about__description">
-                    First I will introduce myself. My name is Wellington Willers I'm 22 years old and I work in the junior developer business in a small company in the region where 
-                    I live, a while ago I studied architecture but programming is the area that fills my heart, since then I've been studying ReactJs and NextJs to one day enter this job market.<br><br>
+                    First I will introduce myself. My name is Wellington Willers I'm 22 years old and I work in the junior developer business in a small company in the <br>region where I live, a while ago I studied architecture but programming is the area that fills my heart, <br>since then I've been studying ReactJs and NextJs to one day enter this job market.
+
                     In the repositories below you will see many of my studies, individual and many projects developed during Ignite, offered by Rocketseat company.
                 </p>
 
-                <div class="about__info">
+                <!-- <div class="about__info">
                     <div>
-                        <span class="about__info-title">08+</span>
-                        <span class="about__info-name">anos <br> experiência</span>
+                        <span class="about__info-title">03+</span>
+                        <span class="about__info-name">anos <br> FrontEnd</span>
                     </div>
                     <div>
                         <span class="about__info-title">08+</span>
@@ -26,7 +26,7 @@
                         <span class="about__info-title">08+</span>
                         <span class="about__info-name">anos <br> experiência</span>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="about__buttons">
                     <a href="@/assets/pdf/Alexa-Cv.pdf" download="" class="button button--flex">

@@ -292,7 +292,8 @@ body.dark-theme {
     }
 
     .portfolio__grid-projects,
-    .footer__container {
+    .footer__container,
+    .skills__container {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -302,5 +303,11 @@ body.dark-theme {
     .nav__link {
         flex-direction: row !important;
         gap: .5rem;
+    }
+
+    .header,
+    .main,
+    .footer__container {
+        padding: 0;
     }
 }
