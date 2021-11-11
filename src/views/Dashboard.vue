@@ -84,10 +84,10 @@ export default {
   }
   .project__title{
     font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-0-75);
+    margin-bottom: var(--mb-1-5);
   }
   .project__subtitle{
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-2-5);
     color: var(--first-color-lighter)
   }
   .project__title,

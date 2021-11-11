@@ -5,6 +5,7 @@
                 <div>
                     <h1 class="footer__title">WELLINGTON</h1>
                     <span class="footer__subtitle">FrontEnd developer</span>
+                    <span class="footer__subtitle">Future full stack developer</span>
                 </div>
 
                 <ul class="footer__links">
@@ -23,22 +24,19 @@
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="#" class="footer__social">
+                    <a href="https://api.whatsapp.com/send?phone=5551992618520&text=Hi%2C%20what's%20up%3F" target="_blank" class="footer__social">
                         <i class="uil uil-whatsapp-alt"></i>
                     </a>
-                    <a href="#" class="footer__social">
+                    <a href="https://www.linkedin.com/in/wellington-willers-24302b199/" target="_blank" class="footer__social">
                         <i class="uil uil-linkedin"></i>
                     </a>
-                    <a href="#" class="footer__social">
+                    <a href="https://www.facebook.com/wellington.willers" target="_blank" class="footer__social">
                         <i class="uil uil-facebook"></i>
                     </a>
-                    <a href="#" class="footer__social">
+                    <a href="https://www.instagram.com/wellington_willers/" target="_blank" class="footer__social">
                         <i class="uil uil-instagram-alt"></i>
                     </a>
-                    <a href="#" class="footer__social">
-                        <i class="uil uil-skype"></i>
-                    </a>
-                    <a href="#" class="footer__social">
+                    <a href="https://msng.link/o/?@WelliWillers=tg" target="_blank" class="footer__social">
                         <i class="uil uil-telegram"></i>
                     </a>
                 </div>

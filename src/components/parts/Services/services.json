@@ -2,23 +2,34 @@
     "service-01": {
         "id": 1,
         "icon": "uil uil-web-grid",
-        "title": "Ui/Ux Designs",
+        "title": "Ui/Ux Designer",
         "services": {
-            "items-01": "as adjwhahdwjka",
-            "items-02": "as adjwhahdwjk aas dawdawdsad s asdawd asd wad sad a awd wd asd d",
-            "items-03": "as adjwhahdwjka",
-            "items-04": "as adjwhahdwjka"
+            "items-01": "I have design experience",
+            "items-02": "Experience with prototyping",
+            "items-03": "Figma is awesome",
+            "items-04": "I like modern applications"
         }
     },
     "service-02": {
         "id": 2,
         "icon": "uil uil-arrow",
-        "title": "FrontEnd Dev",
+        "title": "FrontEnd Developer",
         "services": {
-            "items-01": "as adjwhahdwjka",
-            "items-02": "as adjwhahdwjka",
-            "items-03": "as adjwhahdwjka",
-            "items-04": "as adjwhahdwjka"
+            "items-01": "I have no preference between bootstrap and flexbox",
+            "items-02": "I'm specializing in javascript",
+            "items-03": "I'm flexible to suggestions",
+            "items-04": "I develop web pages"
+        }
+    },
+    "service-03": {
+        "id": 3,
+        "icon": "uil uil-arrow",
+        "title": "FrontEnd Developer",
+        "services": {
+            "items-01": "I have no preference between bootstrap and flexbox",
+            "items-02": "I'm specializing in javascript",
+            "items-03": "I'm flexible to suggestions",
+            "items-04": "I develop web pages"
         }
     }
 }

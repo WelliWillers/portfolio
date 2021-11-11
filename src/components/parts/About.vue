@@ -4,13 +4,14 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container__page grid__page">
-            <img src="@/assets/img/about.jpg" alt="" class="about__img">
+            <img src="@/assets/img/perfil-2.png" alt="" class="about__img">
 
             <div class="about__data">
                 <p class="about__description">
-                    First I will introduce myself. My name is Wellington Willers I'm 22 years old and I work in the junior developer business in a small company in the <br>region where I live, a while ago I studied architecture but programming is the area that fills my heart, <br>since then I've been studying ReactJs and NextJs to one day enter this job market.
-
-                    In the repositories below you will see many of my studies, individual and many projects developed during Ignite, offered by Rocketseat company.
+                    First I will introduce myself. My name is Wellington Willers, I'm 22 years old and I work in the junior developer business in a small company in the region where I live, I studied architecture for a while, but programming is the area that fills me the most, <br>
+                       since then I had been studying ReactJs and NextJs to one day enter this job market, but the company I work for gave me the challenge of learning how to work with VueJs and I have been on this learning journey ever since.
+    
+                       In the repositories below you will see many of my individual studies and many projects developed during Ignite, offered by the company Rocketseat.
                 </p>
 
                 <!-- <div class="about__info">
@@ -46,12 +47,12 @@ export default {
 
 <style>
     .about__img{
-        width: 200px;
+        width: 300px;
         border-radius: .5rem;
         justify-self: center;
         align-self: center;
     }
-    .about__description{
+    .about__description {
         text-align: center;
         margin-bottom: var(--mb-2-5);
     }

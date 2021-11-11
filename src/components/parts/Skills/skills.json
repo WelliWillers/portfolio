@@ -26,9 +26,14 @@
                 "variant": "warning"
             },
             "vue": {
-                "name": "VUEJS",
+                "name": "VUEJS (learnig)",
                 "porcent": "50",
                 "variant": "warning"
+            },
+            "wp": {
+                "name": "Wordpress",
+                "porcent": "90",
+                "variant": "success"
             }
         }
     },
@@ -49,7 +54,7 @@
                 "variant": "warning"
             },
             "node": {
-                "name": "NODE JS",
+                "name": "NODE JS (learnig)",
                 "porcent": "15",
                 "variant": "danger"
             }
@@ -72,7 +77,7 @@
                 "variant": "success"
             },
             "github/lab": {
-                "name": "GitHube",
+                "name": "GitHub",
                 "porcent": "70",
                 "variant": "warning"
             }
