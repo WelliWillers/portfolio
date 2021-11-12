@@ -1,7 +1,7 @@
 {
     "projeto-01": {
         "id": 1,
-        "img": "/img/portfolio3.jpg",
+        "img": "./img/portfolio3.jpg",
         "title": "Vue JS",
         "subtitle": "Fidem banc",
         "description": "Description",
@@ -10,7 +10,7 @@
     },
     "projeto-02": {
         "id": 2,
-        "img": "/img/portfolio2.jpg",
+        "img": "./img/portfolio2.jpg",
         "title": "React Native",
         "subtitle": "App Gameplay",
         "description": "Description",
@@ -19,7 +19,7 @@
     },
     "projeto-03": {
         "id": 3,
-        "img": "/img/portfolio3.jpg",
+        "img": "./img/portfolio3.jpg",
         "title": "Figma",
         "subtitle": "App RekPay",
         "description": "Description",
