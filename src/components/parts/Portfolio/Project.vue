@@ -4,6 +4,7 @@
         <div class="portfolio__data">
             <span class="portfolio__subtitle">{{project.title}}</span>
             <a href="#"><h2 class="portfolio__title">{{project.subtitle}}</h2></a>
+            <p>{{project.description}}</p>
 
             <a :href="project.link" class="button button--flex">
                 View more about

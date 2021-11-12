@@ -23,13 +23,12 @@
     },
     "service-03": {
         "id": 3,
-        "icon": "uil uil-arrow",
-        "title": "FrontEnd Developer",
+        "icon": "uil uil-user-check",
+        "title": "Interpersonal comunication",
         "services": {
-            "items-01": "I have no preference between bootstrap and flexbox",
-            "items-02": "I'm specializing in javascript",
-            "items-03": "I'm flexible to suggestions",
-            "items-04": "I develop web pages"
+            "items-01": "Good communication",
+            "items-02": "I work well as a team",
+            "items-03": "I like to work listening to music"
         }
     }
 }

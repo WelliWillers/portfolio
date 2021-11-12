@@ -22,11 +22,45 @@
                     <!-- qualificação 1 -->
                     <div class="qualification__data">
                         <div class="qualification__left">
-                            <h3 class="qualification__title">computer Engineering</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">E.E.E.M.Santa Clara do Sul</h3>
+                            <span class="qualification__subtitle">Santa Clara do Sul - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                2006 - 2017
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    
+                    <!-- qualificação 2 -->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Computação + Departamento pessoal - Ensino</h3>
+                            <span class="qualification__subtitle">Lajeado - RS</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2015A - 2016B
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- qualificação 1 -->
+                    <div class="qualification__data">
+                        <div class="qualification__left">
+                            <h3 class="qualification__title">Designer - Ensino</h3>
+                            <span class="qualification__subtitle">Lajedo - RS</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2016B - 2017A
                             </div>
                         </div>
                         <div>
@@ -43,11 +77,44 @@
                             <span class="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 class="qualification__title">computer Engineering</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">Curso de inglês - Yázigi</h3>
+                            <span class="qualification__subtitle">Brasil - Lajedo</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                2016A - 2017A
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 2 -->
+                    <div class="qualification__data">
+                        <div class="qualification__left">
+                            <h3 class="qualification__title">Desenvolvimento web - Ensino</h3>
+                            <span class="qualification__subtitle">Lajeado - RS</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2017A - 2017B
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 2 -->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Arquitetura e Urbanismo - UNIVATES</h3>
+                            <span class="qualification__subtitle">Lajeado - RS</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018A - 2021A
                             </div>
                         </div>
                     </div>
@@ -55,11 +122,11 @@
                     <!-- qualificação 3 -->
                     <div class="qualification__data">
                         <div class="qualification__left">
-                            <h3 class="qualification__title">computer Engineering</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">Ignite - ReactJs</h3>
+                            <span class="qualification__subtitle">Rocketseat</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                2021A - In progress
                             </div>
                         </div>
                         <div>
@@ -74,11 +141,12 @@
                     <!-- qualificação 1 -->
                     <div class="qualification__data">
                         <div class="qualification__left">
-                            <h3 class="qualification__title">computer awdwadaw</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">IM Brasil Agência</h3>
+                            <span class="qualification__subtitle">Web design, Videomaker and Designer</span><br>
+                            <span class="qualification__subtitle">Santa Clara do SUl - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                01/04/2016 - 17/06/2018
                             </div>
                         </div>
                         <div>
@@ -95,11 +163,12 @@
                             <span class="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 class="qualification__title">computer Engineering</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">Liquidworks Soluções em TI LTDA</h3>
+                            <span class="qualification__subtitle">Junior developer</span><br>
+                            <span class="qualification__subtitle">Lajeado - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                17/06/2018 - 12/01/2021
                             </div>
                         </div>
                     </div>
@@ -107,11 +176,12 @@
                     <!-- qualificação 3 -->
                     <div class="qualification__data">
                         <div class="qualification__left">
-                            <h3 class="qualification__title">computer Engineering</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">Acemóbil Comércio e Serviços LTDA</h3>
+                            <span class="qualification__subtitle">Auxiliar de conferencia</span><br>
+                            <span class="qualification__subtitle">Lajeado - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                13/01/2021 - 28/06/2021
                             </div>
                         </div>
                         <div>
@@ -127,11 +197,12 @@
                             <span class="qualification__rounder"></span>
                         </div>
                         <div>
-                            <h3 class="qualification__title">computer Engineering</h3>
-                            <span class="qualification__subtitle">Brasil - Univates</span>
+                            <h3 class="qualification__title">Liquidworks Soluções em TI LTDA</h3>
+                            <span class="qualification__subtitle">Full developer</span><br>
+                            <span class="qualification__subtitle">Lajeado - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2009 - 2015
+                                01/07/2021 - In progress
                             </div>
                         </div>
                     </div>
@@ -194,13 +265,14 @@ export default {
         font-size: var(--normal-font-size);
         font-weight: var(--font-medium);
     }
-    .qualification__subtitle{
+    .qualification__subtitle {
         display: inline-block;
         font-size: var(--small-font-size);
     }
-    .qualification__calendar{
-        font-size: var(--small-font-size);
+    .qualification__calendar {
+        font-size: .7rem;
         color: var(--text-color-light);
+        margin-bottom: var(--mb-1);
     }
     .qualification__rounder{
         display: inline-block;

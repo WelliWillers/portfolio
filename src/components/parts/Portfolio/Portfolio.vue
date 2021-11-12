@@ -1,6 +1,6 @@
 <template>
     <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Services</h2>
+        <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">My Recent works</span>
 
         <div class="portfolio__container container__page grid__page">
