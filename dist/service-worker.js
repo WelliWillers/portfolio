@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/portfolio/precache-manifest.377d21d629fc8a16aa8c6f5701c02a13.js"
+  "/precache-manifest.89bbe30d98444e28beda2331f930a364.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "wellingtonwillers"});
