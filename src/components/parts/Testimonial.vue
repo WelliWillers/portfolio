@@ -11,7 +11,7 @@
                     <div class="testimonial__content">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="/img/testimonial2.jpg" alt="" class="testimonial__img">
+                                <img src="./img/testimonial2.jpg" alt="" class="testimonial__img">
                                 <div>
                                     <h3 class="testimonial__name">Matheo</h3>
                                     <span class="testimonial__client">Client</span>
@@ -35,7 +35,7 @@
                     <div class="testimonial__content">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="/img/testimonial1.jpg" alt="" class="testimonial__img">
+                                <img src="./img/testimonial1.jpg" alt="" class="testimonial__img">
                                 <div>
                                     <h3 class="testimonial__name">Maria Grasieli</h3>
                                     <span class="testimonial__client">Client</span>
