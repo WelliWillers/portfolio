@@ -6,5 +6,6 @@ git push origin master
 npm run build
 
 git add dist -f
+git remote add origin https://github.com/WelliWillers/portfolio.git
 git commit -m "deploy to gh-pages 1"
-git subtree push -f --prefix dist origin gh-pages
+git subtree push --prefix dist origin gh-pages
