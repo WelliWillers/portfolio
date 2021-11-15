@@ -9,7 +9,7 @@
             <div>
                 <h1 class="skills__title">{{skill.name}}</h1>
                 <span class="skills__subtitle">{{skill.description}}</span>
-            </div>
+            </div> 
 
             <i class="uil uil-angle-down skills__arrow"></i>
         </div>
