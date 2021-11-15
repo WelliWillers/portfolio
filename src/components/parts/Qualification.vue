@@ -254,7 +254,7 @@ export default {
     }
     .qualification__icon{
         font-size: 1.8rem;
-        margin-right: var(--mb0-25);
+        margin-right: var(--mb-0-25);
     }
     .qualification__data{
         display: grid;

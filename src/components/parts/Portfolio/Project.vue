@@ -6,7 +6,7 @@
             <a href="#"><h2 class="portfolio__title">{{project.subtitle}}</h2></a>
             <p>{{project.description}}</p>
 
-            <a :href="project.link" class="button button--flex">
+            <a :href="project.link" target="_blanck" class="button button--flex">
                 View more about
             </a>
         </div>

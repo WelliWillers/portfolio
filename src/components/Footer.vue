@@ -69,7 +69,8 @@ export default {
     .footer__title,
     .footer__subtitle,
     .footer__link,
-    .footer__social{
+    .footer__social,
+    .footer__copy{
         color: #fff;
     }
     .footer__title{
@@ -90,7 +91,6 @@ export default {
     .footer__copy{
         font-size: var(--smaller-font-size);
         text-align: center;
-        color: var(--text-color-lighter);
         margin-top: var(--mb-3);
     }
     .footer__socials {

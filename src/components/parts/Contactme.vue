@@ -10,7 +10,7 @@
 
                     <div>
                         <h3 class="contact__title">Call me</h3>
-                        <span class="contact__subtitle">+55 (51) 99261-8520</span>
+                        <span class="contact__subtitle"><a href="tell:51992618520">+55 (51) 99261-8520</a></span>
                     </div>
                 </div>
                 <div class="contact__information">
@@ -18,7 +18,7 @@
 
                     <div>
                         <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle">Wellington.willers@gmail.com</span>
+                        <span class="contact__subtitle"><a href="mailto:Wellington.willers@gmail.com">Wellington.willers@gmail.com</a></span>
                     </div>
                 </div>
                 <div class="contact__information">
@@ -26,7 +26,7 @@
 
                     <div>
                         <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle">Rua Dr. José Edgar Ramos, Lajeado - RS</span>
+                        <span class="contact__subtitle"><a href="https://www.google.com/maps?q=lajeado&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwjHxcm5iZv0AhUCZt4KHbRmBPUQ_AUoAXoECAEQAw" target="_blank">Brazil, Lajeado - RS</a></span>
                     </div>
                 </div>
             </div>
