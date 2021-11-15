@@ -26,7 +26,7 @@
           <div class="project__bg">
             <div class="project__container container__page grid__page">
               <div class="project__data">
-                <h2 class="project__title">You have a new project in mind?</h2>
+                <h2 class="project__title">Do you have a new project in mind?</h2>
                 <span class="project__subtitle">Contact me now and get a 10% discount on your new project. </span>
                 <a href="#contactme" class="button button--flex button--white">
                   Contact me

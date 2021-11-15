@@ -4,7 +4,7 @@
             <div class="footer__container container__page grid__page">
                 <div>
                     <h1 class="footer__title">WELLINGTON</h1>
-                    <span class="footer__subtitle">FrontEnd developer</span>
+                    <span class="footer__subtitle">FrontEnd developer</span><br>
                     <span class="footer__subtitle">Future full stack developer</span>
                 </div>
 

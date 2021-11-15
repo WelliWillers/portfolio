@@ -52,20 +52,20 @@ export default {
 </script>
 
 <style>
-    .services__content{
+    .services__content {
         position: relative;
         background-color: var(--container-color);
-        padding: 3.5rem .5rem 1.25rem 1.5rem;
+        padding: 1.5rem .5rem 1.25rem 1.5rem;
         border-radius: .5rem;
         box-shadow: 0 2px 4px rgba(0,0,0,.15);
         transition: .3s;
     }
-    .services__content:hover{
+    .services__content:hover {
         box-shadow: 0 4px 8px rgba(0,0,0,.35);
     }
-    .services__icon{
+    .services__icon {
         display: block;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         color: var(--first-color);
         margin-bottom: var(--mb-1);
     }
@@ -114,6 +114,7 @@ export default {
         font-size: var(--h3-font-size);
         font-weight: var(--font-medium);
         margin-bottom: var(--mb-1-5);
+        max-width: 90%;
     }
     .services__modal-close{
         position: absolute;

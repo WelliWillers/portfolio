@@ -7,7 +7,7 @@
         "percents": {
             "html": {
                 "name": "HTML",
-                "porcent": "95",
+                "porcent": "94",
                 "variant": "success"
             },
             "css": {
@@ -17,17 +17,22 @@
             },
             "JS": {
                 "name": "Javascript",
-                "porcent": "80",
+                "porcent": "85",
                 "variant": "success"
             },
             "react": {
                 "name": "REACTJS",
-                "porcent": "60",
+                "porcent": "70",
+                "variant": "warning"
+            },
+            "nextjs": {
+                "name": "NEXTJS",
+                "porcent": "40",
                 "variant": "warning"
             },
             "vue": {
                 "name": "VUEJS (learnig)",
-                "porcent": "50",
+                "porcent": "55",
                 "variant": "warning"
             },
             "wp": {
@@ -80,6 +85,29 @@
                 "name": "GitHub",
                 "porcent": "70",
                 "variant": "warning"
+            }
+        }
+    },
+    "skill-4": {
+        "id": 4,
+        "icon": "uil uil-user-check",
+        "name": "Character",
+        "description": "In my person",
+        "percents": {
+            "Communicative": {
+                "name": "Communicative",
+                "porcent": "98",
+                "variant": "success"
+            },
+            "Attentive": {
+                "name": "Attentive",
+                "porcent": "95",
+                "variant": "success"
+            },
+            "Didactic": {
+                "name": "Didactic",
+                "porcent": "85",
+                "variant": "success"
             }
         }
     }

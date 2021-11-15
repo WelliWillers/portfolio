@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -293,7 +293,7 @@ body.dark-theme {
 
     .portfolio__grid-projects,
     .footer__container,
-    .skills__container,
+    // .skills__container,
     .services__container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -318,5 +318,9 @@ body.dark-theme {
     .main,
     .footer__container {
         padding: 0 !important;
+    }
+
+    .services__modal-content {
+        min-width: 350px;
     }
 }
