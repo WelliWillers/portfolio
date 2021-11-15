@@ -7,4 +7,4 @@ npm run build
 
 git add dist -f
 git commit -m "deploy to gh-pages 1"
-git subtree push --prefix dist origin gh-pages
+git subtree push -f --prefix dist origin gh-pages
