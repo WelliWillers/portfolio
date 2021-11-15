@@ -1,27 +1,13 @@
 <template>
   <div>
     <nav-header />
-
     <main class="main">
-        <!--==================== HOME ====================-->
         <home-page/>
-
-        <!--==================== ABOUT ====================-->
         <about-page/>
-
-        <!--==================== SKILLS ====================-->
         <skills-page/>
-
-        <!--==================== QUALIFICATION ====================-->
         <qualification-page/>
-
-        <!--==================== SERVICES ====================-->
         <services-page/>
-
-        <!--==================== PORTFOLIO ====================-->
         <portfolio-page />
-
-        <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
           <div class="project__bg">
             <div class="project__container container__page grid__page">
@@ -38,20 +24,13 @@
             </div>
           </div>
         </section>
-
-        <!--==================== TESTIMONIAL ====================-->
         <testimonial-page />
-
-        <!--==================== CONTACT ME ====================-->
         <contactme-page/>
     </main>
-
     <nav-footer/>
-
     <a href="#" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-
   </div>
 </template>
 
