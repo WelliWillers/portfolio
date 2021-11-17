@@ -58,6 +58,8 @@ export default {
     mounted() {
         var containerEl = document.querySelector('.portfolio__container');
         mixitup(containerEl);
+
+        this.$srTop.reveal('.portfolio__grid-projects', { delay: 100 });
     }
 }
 </script>

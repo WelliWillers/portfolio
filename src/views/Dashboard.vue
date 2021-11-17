@@ -43,6 +43,11 @@ export default {
         if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
     }
     window.addEventListener('scroll', scrollUp)
+
+    this.$srTop.reveal('.project__title', { delay: 100 });
+    this.$srTop.reveal('.project__subtitle', { delay: 200 });
+    this.$srTop.reveal('.project__img', { delay: 300 });
+
   }
 }
 </script>

@@ -18,6 +18,9 @@ export default {
     name: 'project-item',
     props: {
         project: {}
+    },
+    mounted() {
+        this.$srTop.reveal('.portfolio__content', { interval: 100 });
     }
 }
 </script>

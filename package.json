@@ -14,6 +14,7 @@
     "core-js": "^3.6.5",
     "element-ui": "^2.15.6",
     "register-service-worker": "^1.7.1",
+    "scrollreveal": "^4.0.9",
     "swiper": "^6.8.4",
     "vue": "^2.6.14",
     "vue-router": "^3.2.0",

@@ -20,7 +20,7 @@
                     <h3 class="skills__name">{{item.name}}</h3>
                     <span class="skills__number">{{item.porcent}}%</span>
                 </div>
-                <b-progress animated>
+                <b-progress animated class="skills__progress">
                     <b-progress-bar :variant="item.variant" :value="item.porcent" :label="`${((item.porcent) * 1)}%`"></b-progress-bar>
                 </b-progress>
             </div>
@@ -31,18 +31,22 @@
 
 <script>
 export default {
-    data() {
-        return {
-            isVisible: false,
-        }
-    },
     props: {
+        isVisible: {
+            type: Boolean,
+            default: false,
+        },
         skill: {}
     },
     methods: {
         toggleSkill(){
             this.isVisible = !this.isVisible;
         }
+    },
+    mounted(){
+        this.$srTop.reveal('.skills__content', { interval: 100 });
+        this.$srTop.reveal('.skills__titles', { delay: 100 });
+        this.$srTop.reveal('.skills__progress', { delay: 100 });
     }
     
 }

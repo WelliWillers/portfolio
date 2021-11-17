@@ -10,6 +10,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import '@/assets/global.scss';
 
+
+import ScrollReveal from 'scrollreveal';
+
 import Unicon from 'vue-unicons/dist/vue-unicons-vue2.umd'
 import { 
   uniEstate, uniUser, uniFileAlt, uniBriefcase, uniScenery, uniMessage, uniTimes, uniApps,
@@ -28,14 +31,21 @@ Unicon.add(
 
 export default {
   install(Vue) {
+    Vue.use(Element, { locale });
     Vue.use(GlobalComponents);
     Vue.use(GlobalDirectives);
-    Vue.use(BootstrapVue)
+    Vue.use(BootstrapVue);
     Vue.use(Unicon, { 
       fill: 'inherit',
       height: 24,
       width: 24
     });
-    Vue.use(Element, { locale });
+
+    Vue.prototype.$srTop = ScrollReveal({
+      origin: 'top',
+      distance: '50px',
+      duration: 1500,
+      reset: false
+    });
   }
 };

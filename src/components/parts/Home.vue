@@ -65,7 +65,15 @@
 
 <script>
 export default {
-    name: "home-page"
+    name: "home-page",
+    mounted() {
+        this.$srTop.reveal('.home__img', { delay: 100 });
+        this.$srTop.reveal('.home__title', { delay: 200 });
+        this.$srTop.reveal('.home__subtitle', { delay: 300 });
+        this.$srTop.reveal('.home__description', { delay: 400 });
+        this.$srTop.reveal('.home__social-icon', { interval: 100 });
+        this.$srTop.reveal('.button--flex', { interval: 200 });
+    }
 }
 </script>
 

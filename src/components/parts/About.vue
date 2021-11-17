@@ -41,7 +41,12 @@
 
 <script>
 export default {
-    name: "about-page"
+    name: "about-page",
+    mounted() {
+        this.$srTop.reveal('.about__img', { delay: 300 });
+        this.$srTop.reveal('.about__description', { delay: 400 });
+        this.$srTop.reveal('.section__subtitle', { interval: 100 });
+    }
 }
 </script>
 

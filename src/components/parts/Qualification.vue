@@ -228,6 +228,14 @@ export default {
 
             console.log(process.env.AUTH_EMAIL)
         }
+    },
+    mounted() {
+        this.$srTop.reveal('.qualification__calendar', { delay: 100 });
+        this.$srTop.reveal('.qualification__subtitle', { delay: 200 });
+        this.$srTop.reveal('.qualification__title', { delay: 300 });
+        this.$srTop.reveal('.qualification__rounder', { delay: 400 });
+        this.$srTop.reveal('.qualification__line', { delay: 500 });
+
     }
 }
 </script>

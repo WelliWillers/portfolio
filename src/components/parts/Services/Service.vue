@@ -47,6 +47,9 @@ export default {
         nameOfCustomEventToCall(){
             this.modalIsOpen = false
         }
+    },
+    mounted() {
+        this.$srTop.reveal('.services__content', { interval: 200 });
     }
 }
 </script>

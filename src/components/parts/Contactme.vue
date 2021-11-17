@@ -65,7 +65,13 @@
 
 <script>
 export default {
-    name: "contactme-page"
+    name: "contactme-page",
+    mounted() {
+        this.$srTop.reveal('.contact__icon', { delay: 100 });
+        this.$srTop.reveal('.contact__title', { delay: 200 });
+        this.$srTop.reveal('.contact__subtitle', { delay: 300 });
+        this.$srTop.reveal('.contact__content', { delay: 200 });
+    }
 }
 </script>
 
