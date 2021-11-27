@@ -119,5 +119,15 @@
         "category": "web uiux",
         "link": "https://www.liquidworks.com.br/",
         "buttomText": "View about Liquid"
+    },
+    "projeto-01": {
+        "id": 13,
+        "img": "./img/gif.gif",
+        "title": "React JS",
+        "subtitle": "Clone style site Tesla",
+        "description": "Application made from a video on youtube to learn some new css features",
+        "category": "web",
+        "link": "hhttps://github.com/WelliWillers/clone_ui_tesla_website",
+        "buttomText": "View more about"
     }
 }
