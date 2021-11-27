@@ -102,9 +102,9 @@
     },
     "projeto-12": {
         "id": 12,
-        "img": "./img/caparekpay.png",
+        "img": "./img/capablur2.png",
         "title": "Figma",
-        "subtitle": "Liquid - App RekPay",
+        "subtitle": "Em breve",
         "description": "Application developed for the company I work for.",
         "category": "uiux",
         "link": "https://www.liquidworks.com.br/",
@@ -112,9 +112,9 @@
     },
     "projeto-01": {
         "id": 1,
-        "img": "./img/capafidem.png",
+        "img": "./img/capablur1.png",
         "title": "Vue JS and Figma",
-        "subtitle": "Liquid - Fidem banc",
+        "subtitle": "Em breve",
         "description": "Application created and developed for the company I work for.",
         "category": "web uiux",
         "link": "https://www.liquidworks.com.br/",
