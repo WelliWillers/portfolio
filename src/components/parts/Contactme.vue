@@ -4,7 +4,7 @@
         <span class="section__subtitle">Or clear your doubts</span>
 
         <div class="contact__container container__page grid__page">
-            <div>
+            <!-- <div> -->
                 <div class="contact__information">
                     <i class="uil uil-phone contact__icon"></i>
 
@@ -29,9 +29,9 @@
                         <span class="contact__subtitle"><a href="https://www.google.com/maps?q=lajeado&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwjHxcm5iZv0AhUCZt4KHbRmBPUQ_AUoAXoECAEQAw" target="_blank">Brazil, Lajeado - RS</a></span>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
 
-            <form action="" class="contact__form grid__page">
+            <!-- <form action="" class="contact__form grid__page">
                 <div class="contact__inputs grid__page">
                     <div class="contact__content">
                         <label for="" class="contact__label">Name</label>
@@ -57,7 +57,7 @@
                         </a>
                     </div>
                 </div>
-            </form>
+            </form> -->
         </div>
 
     </section>

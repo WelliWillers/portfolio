@@ -21,23 +21,33 @@
                 "variant": "success"
             },
             "react": {
-                "name": "REACTJS",
-                "porcent": "70",
+                "name": "REACTJS (paused because of work)",
+                "porcent": "77",
+                "variant": "success"
+            },
+            "reactnative": {
+                "name": "REACT NATIVE",
+                "porcent": "65",
                 "variant": "warning"
             },
             "nextjs": {
-                "name": "NEXTJS",
+                "name": "NEXTJS (paused because of work)",
                 "porcent": "40",
                 "variant": "warning"
             },
             "vue": {
-                "name": "VUEJS (learnig)",
-                "porcent": "55",
+                "name": "VUEJS (learnig in job)",
+                "porcent": "65",
                 "variant": "warning"
+            },
+            "flutter": {
+                "name": "FLUTTER (learnig in home)",
+                "porcent": "25",
+                "variant": "danger"
             },
             "wp": {
                 "name": "Wordpress",
-                "porcent": "90",
+                "porcent": "93",
                 "variant": "success"
             }
         }
@@ -58,8 +68,13 @@
                 "porcent": "70",
                 "variant": "warning"
             },
+            "firebase": {
+                "name": "Firebase",
+                "porcent": "50",
+                "variant": "warning"
+            },
             "node": {
-                "name": "NODE JS (learnig)",
+                "name": "NODE JS (next study)",
                 "porcent": "15",
                 "variant": "danger"
             }

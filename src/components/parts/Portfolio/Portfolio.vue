@@ -17,25 +17,6 @@
             </div>
 
         </div>
-        <!-- ,
-    "projeto-12": {
-        "id": 12,
-        "img": "./img/caparekpay.png",
-        "title": "Figma",
-        "subtitle": "App RekPay",
-        "description": "Application developed for the company I work for.",
-        "category": "uiux",
-        "link": "https://www.liquidworks.com.br/"
-    },
-    "projeto-01": {
-        "id": 1,
-        "img": "./img/capafidem.png",
-        "title": "Vue JS and Figma",
-        "subtitle": "Fidem banc",
-        "description": "Application created and developed for the company I work for.",
-        "category": "web uiux",
-        "link": "https://www.liquidworks.com.br/"
-    } -->
     </section>
 </template>
 
@@ -58,8 +39,6 @@ export default {
     mounted() {
         var containerEl = document.querySelector('.portfolio__container');
         mixitup(containerEl);
-
-        this.$srTop.reveal('.portfolio__grid-projects', { delay: 100 });
     }
 }
 </script>

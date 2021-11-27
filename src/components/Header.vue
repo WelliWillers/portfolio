@@ -1,7 +1,7 @@
 <template>
     <header class="header" id="header">
         <nav class="nav container__page">
-            <a href="#" class="nav__logo">WELLINGTON</a>
+            <a href="#" class="nav__logo">I'm Wellington</a>
 
             <div :class="[
                 'nav__menu',

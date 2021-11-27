@@ -1,13 +1,13 @@
 <template>
     <div :class="['portfolio__content', 'mix', `${project.category}`]">
-        <a href="#"><img :src="project.img" alt="portfolio img"></a>
+        <a :href="project.link"><img :src="project.img" alt="portfolio img"></a>
         <div class="portfolio__data">
             <span class="portfolio__subtitle">{{project.title}}</span>
-            <a href="#"><h2 class="portfolio__title">{{project.subtitle}}</h2></a>
+            <a :href="project.link"><h2 class="portfolio__title">{{project.subtitle}}</h2></a>
             <p>{{project.description}}</p>
 
             <a :href="project.link" target="_blanck" class="button button--flex">
-                View more about
+                {{project.buttomText}}
             </a>
         </div>
     </div>
@@ -18,9 +18,8 @@ export default {
     name: 'project-item',
     props: {
         project: {}
-    },
-    mounted() {
-        this.$srTop.reveal('.portfolio__content', { interval: 100 });
+    }, mounted(){
+        this.$srTop.reveal('.portfolio__content', { delay: 100 });
     }
 }
 </script>

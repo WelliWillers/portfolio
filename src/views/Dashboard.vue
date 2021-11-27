@@ -24,7 +24,7 @@
             </div>
           </div>
         </section>
-        <testimonial-page />
+        <!-- <testimonial-page /> -->
         <contactme-page/> 
     </main>
     <nav-footer/>

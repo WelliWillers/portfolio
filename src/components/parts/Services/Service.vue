@@ -1,15 +1,18 @@
 <template>
-    <div class="services__content">
-        <div>
-            <i :class="[service.icon, 'services__icon']"></i>
-            <h3 class="services__title">{{service.title}}</h3>
+    <div>
+        <div class="services__content">
+            <div>
+                <i :class="[service.icon, 'services__icon']"></i>
+                <h3 class="services__title">{{service.title}}</h3>
+            </div>
+
+            <span @click="showModal" class="button button--flex button--small button--link services__button">
+                view more 
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
         </div>
-
-        <span @click="showModal" class="button button--flex button--small button--link services__button">
-            view more 
-            <i class="uil uil-arrow-right button__icon"></i>
-        </span>
-
+        
         <div v-click-outside="nameOfCustomEventToCall" :class="['services__modal', {show__modal: modalIsOpen}]">
             <div class="services__modal-content">
                 <h4 class="services__modal-title">{{service.title}}</h4>

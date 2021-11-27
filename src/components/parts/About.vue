@@ -8,32 +8,33 @@
 
             <div class="about__data">
                 <p class="about__description">
-                    First I will introduce myself. My name is Wellington Willers, I'm 22 years old and I work in the junior developer business in a small company in the region where I live, I studied architecture for a while, but programming is the area that fills me the most, <br>
-                       since then I had been studying ReactJs and NextJs to one day enter this job market, but the company I work for gave me the challenge of learning how to work with VueJs and I have been on this learning journey ever since.
-    
-                       In the repositories below you will see many of my individual studies and many projects developed during Ignite, offered by the company Rocketseat.
+                    Wellington Willers, I'm 22 years old and working as a junior developer at a company 
+                    in the region where I live, I studied architecture for a while, but programming is the 
+                    area with which I most identify.
+                    In the portfolio below you will see many of my individual projects based on what I 
+                    learned during some of my courses and also my skills.
                 </p>
 
-                <!-- <div class="about__info">
+                <div class="about__info">
                     <div>
-                        <span class="about__info-title">03+</span>
-                        <span class="about__info-name">anos <br> FrontEnd</span>
+                        <span class="about__info-title">17+</span>
+                        <span class="about__info-name">Projects in <br> FrontEnd</span>
                     </div>
                     <div>
-                        <span class="about__info-title">08+</span>
-                        <span class="about__info-name">anos <br> experiência</span>
+                        <span class="about__info-title">03</span>
+                        <span class="about__info-name">Projects in <br> BackEnd</span>
                     </div>
                     <div>
-                        <span class="about__info-title">08+</span>
-                        <span class="about__info-name">anos <br> experiência</span>
+                        <span class="about__info-title">04</span>
+                        <span class="about__info-name">Projects in <br> Apps</span>
                     </div>
-                </div> -->
+                </div>
 
-                <div class="about__buttons">
+                <!-- <div class="about__buttons">
                     <a href="@/assets/pdf/Welli-Cv.pdf" download="" class="button button--flex">
                         Download CV <i class="uil uil-file-download-alt about__icon"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

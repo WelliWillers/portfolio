@@ -1,9 +1,8 @@
 <template>
     <div 
         :class="['skills__content', {skills__open: isVisible}]" 
-        @click="toggleSkill"
     >
-        <div class="skills__header">
+        <div class="skills__header" @click="toggleSkill">
             <i :class="[skill.icon, 'skills__icon']"></i>
 
             <div>
