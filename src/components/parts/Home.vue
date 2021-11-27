@@ -72,7 +72,7 @@ export default {
         this.$srTop.reveal('.home__subtitle', { delay: 300 });
         this.$srTop.reveal('.home__description', { delay: 400 });
         this.$srTop.reveal('.home__social-icon', { interval: 100 });
-        this.$srTop.reveal('.button--flex', { interval: 200 });
+        this.$srTop.reveal('.button--flex', { delay: 100 });
     }
 }
 </script>
