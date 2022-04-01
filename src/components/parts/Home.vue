@@ -42,7 +42,7 @@
 
                 <div class="home__data">
                     <h1 class="home__title">Hi, I'am Wellington</h1>
-                    <h3 class="home__subtitle">FrontEnd Development</h3>
+                    <h3 class="home__subtitle">FrontEnd Development VueJs/NuxtJs</h3>
                     <p class="home__description">Right now I'm focused on learning vue js for front end and also learning more about Node js to work with backend in future projects.</p>
                     
                 </div>

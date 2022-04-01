@@ -7,17 +7,17 @@
         "percents": {
             "html": {
                 "name": "HTML",
-                "porcent": "94",
+                "porcent": "100",
                 "variant": "success"
             },
             "css": {
                 "name": "CSS",
-                "porcent": "90",
+                "porcent": "98",
                 "variant": "success"
             },
             "JS": {
                 "name": "Javascript",
-                "porcent": "85",
+                "porcent": "90",
                 "variant": "success"
             },
             "react": {
@@ -36,18 +36,23 @@
                 "variant": "warning"
             },
             "vue": {
-                "name": "VUEJS (learnig in job)",
-                "porcent": "65",
-                "variant": "warning"
+                "name": "VUEJS",
+                "porcent": "95",
+                "variant": "success"
+            },
+            "NuxtJS": {
+                "name": "NUXTJS",
+                "porcent": "85",
+                "variant": "success"
             },
             "flutter": {
-                "name": "FLUTTER (learnig in home)",
+                "name": "FLUTTER",
                 "porcent": "25",
                 "variant": "danger"
             },
             "wp": {
                 "name": "Wordpress",
-                "porcent": "93",
+                "porcent": "95",
                 "variant": "success"
             }
         }

@@ -28,6 +28,10 @@
                         <span class="about__info-title">04</span>
                         <span class="about__info-name">Projects in <br> Apps</span>
                     </div>
+                    <div>
+                        <span class="about__info-title">05+</span>
+                        <span class="about__info-name">Certificates <br> in Alura</span>
+                    </div>
                 </div>
 
                 <!-- <div class="about__buttons">
