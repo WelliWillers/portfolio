@@ -5,7 +5,11 @@ git push origin master
 
 npm run build
 
-git add dist -f
-git commit -m 'deploy'
+cd dist
 
-git subtree push --prefix dist origin gh-pages
+git init
+git remote add origin git@github.com:WelliWillers/portfolio.git
+git add .
+git commit -m 'deploy dist to production'
+
+git push --force origin master:gh-pages
