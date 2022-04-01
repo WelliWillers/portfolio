@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8f193abe520c17198c9",
+    "revision": "17e622d88e196bb76fb8",
     "url": "/portfolio/css/app.3e046d60.css"
   },
   {
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/img/capaspacetraveling.png"
   },
   {
+    "revision": "ecfeee58193948398d8095349c98b00b",
+    "url": "/portfolio/img/capatesla.png"
+  },
+  {
     "revision": "138f45676f9e4028eae07a491df4d2cc",
     "url": "/portfolio/img/capawatchme.png"
   },
@@ -92,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/img/perfil.44d1093d.png"
   },
   {
-    "revision": "5f105c355ca92ed78b2a4807e291d89c",
+    "revision": "86a411b30017816837279052e0ceac2f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f8f193abe520c17198c9",
-    "url": "/portfolio/js/app.f8098f91.js"
+    "revision": "17e622d88e196bb76fb8",
+    "url": "/portfolio/js/app.a2719ee1.js"
   },
   {
     "revision": "77e97b4449bd85a58779",
