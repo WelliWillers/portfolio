@@ -16,13 +16,13 @@
                 "variant": "success"
             },
             "JS": {
-                "name": "Javascript",
+                "name": "JAVASCRIPT",
                 "porcent": "90",
                 "variant": "success"
             },
             "react": {
-                "name": "REACTJS (paused because of work)",
-                "porcent": "77",
+                "name": "REACT.JS",
+                "porcent": "80",
                 "variant": "success"
             },
             "reactnative": {
@@ -31,17 +31,17 @@
                 "variant": "warning"
             },
             "nextjs": {
-                "name": "NEXTJS (paused because of work)",
-                "porcent": "40",
+                "name": "NEXT.JS",
+                "porcent": "60",
                 "variant": "warning"
             },
             "vue": {
-                "name": "VUEJS",
+                "name": "VUE.JS",
                 "porcent": "95",
                 "variant": "success"
             },
             "NuxtJS": {
-                "name": "NUXTJS",
+                "name": "NUXT.JS",
                 "porcent": "85",
                 "variant": "success"
             },
@@ -51,7 +51,7 @@
                 "variant": "danger"
             },
             "wp": {
-                "name": "Wordpress",
+                "name": "WORDPRESS",
                 "porcent": "95",
                 "variant": "success"
             }
@@ -65,7 +65,7 @@
         "percents": {
             "php": {
                 "name": "PHP",
-                "porcent": "60",
+                "porcent": "65",
                 "variant": "warning"
             },
             "mysql": {
@@ -82,6 +82,11 @@
                 "name": "NODE JS (next study)",
                 "porcent": "15",
                 "variant": "danger"
+            },
+            "docker": {
+                "name": "Docker containers",
+                "porcent": "70",
+                "variant": "success"
             }
         }
     },
@@ -103,7 +108,7 @@
             },
             "github/lab": {
                 "name": "GitHub",
-                "porcent": "70",
+                "porcent": "80",
                 "variant": "warning"
             }
         }
@@ -114,19 +119,24 @@
         "name": "Character",
         "description": "In my person",
         "percents": {
-            "Communicative": {
+            "communicative": {
                 "name": "Communicative",
                 "porcent": "98",
                 "variant": "success"
             },
-            "Attentive": {
+            "attentive": {
                 "name": "Attentive",
                 "porcent": "95",
                 "variant": "success"
             },
-            "Didactic": {
+            "didactic": {
                 "name": "Didactic",
                 "porcent": "85",
+                "variant": "success"
+            },
+            "agile methodologies": {
+                "name": "Agile methodologies",
+                "porcent": "95",
                 "variant": "success"
             }
         }

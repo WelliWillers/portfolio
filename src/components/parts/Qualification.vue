@@ -126,7 +126,7 @@
                             <span class="qualification__subtitle">Rocketseat</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2021A - In progress
+                                2021B - In progress
                             </div>
                         </div>
                         <div>
@@ -146,7 +146,7 @@
                             <span class="qualification__subtitle">Santa Clara do SUl - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                01/04/2016 - 17/06/2018
+                                01/04/2016 - 17/06/2018 <br/> <small>(2 years and 2 months)</small>
                             </div>
                         </div>
                         <div>
@@ -168,7 +168,7 @@
                             <span class="qualification__subtitle">Lajeado - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                17/06/2018 - 12/01/2021
+                                17/06/2018 - 12/01/2021 <br/> <small>(2 years and 6 months)</small>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                             <span class="qualification__subtitle">Lajeado - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                13/01/2021 - 28/06/2021
+                                13/01/2021 - 28/06/2021 <br/> <small>(6 months)</small>
                             </div>
                         </div>
                         <div>
@@ -195,6 +195,7 @@
                         <div></div>
                         <div>
                             <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
                         </div>
                         <div>
                             <h3 class="qualification__title">Liquidworks Soluções em TI LTDA</h3>
@@ -202,10 +203,27 @@
                             <span class="qualification__subtitle">Lajeado - RS</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                01/07/2021 - In progress
+                                01/07/2021 - 13/06/2022 <br/> <small>(11 months)</small>
                             </div>
                         </div>
                     </div>
+
+                     <!-- qualificação 5 -->
+                    <div class="qualification__data">
+                        <div class="qualification__left">
+                            <h3 class="qualification__title">LightHouse</h3>
+                            <span class="qualification__subtitle">Front-End developer - React.Js</span><br>
+                            <span class="qualification__subtitle">Porto Alegre - RS</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                13/06/2022 - In Progress
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
 
             <div class="about__data">
                 <p class="about__description">
-                    Wellington Willers, I'm 22 years old and working as a junior developer at a company 
+                    Wellington Willers, I'm 23 years old and working as a junior developer at a company 
                     in the region where I live, I studied architecture for a while, but programming is the 
                     area with which I most identify.
                     In the portfolio below you will see many of my individual projects based on what I 
@@ -17,7 +17,7 @@
 
                 <div class="about__info">
                     <div>
-                        <span class="about__info-title">17+</span>
+                        <span class="about__info-title">20+</span>
                         <span class="about__info-name">Projects in <br> FrontEnd</span>
                     </div>
                     <div>
@@ -29,7 +29,7 @@
                         <span class="about__info-name">Projects in <br> Apps</span>
                     </div>
                     <div>
-                        <span class="about__info-title">05+</span>
+                        <span class="about__info-title">10+</span>
                         <span class="about__info-name">Certificates <br> in Alura</span>
                     </div>
                 </div>

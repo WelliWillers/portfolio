@@ -42,8 +42,9 @@
 
                 <div class="home__data">
                     <h1 class="home__title">Hi, I'am Wellington</h1>
-                    <h3 class="home__subtitle">FrontEnd Development VueJs/NuxtJs</h3>
-                    <p class="home__description">Right now I'm focused on learning vue js for front end and also learning more about Node js to work with backend in future projects.</p>
+                    <h3 class="home__subtitle">FrontEnd Development</h3>
+                    <span>Vue.Js/Nuxt.Js or React.Js/Next.js</span>
+                    <p class="home__description">Right now I'm focused on learning for front-end tecnologies and to future learning more about Node js to work with backend.</p>
                     
                 </div>
             </div>
