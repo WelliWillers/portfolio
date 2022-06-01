@@ -58,7 +58,7 @@ export default {
 <style>
     .about__img{
         width: 300px;
-        border-radius: .5rem;
+        border-radius: 3rem ;
         justify-self: center;
         align-self: center;
     }

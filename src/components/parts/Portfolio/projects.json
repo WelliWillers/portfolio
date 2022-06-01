@@ -129,5 +129,25 @@
         "category": "web",
         "link": "hhttps://github.com/WelliWillers/clone_ui_tesla_website",
         "buttomText": "View more about"
+    },
+    "projeto-14": {
+        "id": 14,
+        "img": "./img/capacelcompanies.png",
+        "title": "React.js + Next.js + ChakraUi",
+        "subtitle": "CelCompanies",
+        "description": "Application maked with a fake API filtering a phone numbers of a company",
+        "category": "web",
+        "link": "https://github.com/WelliWillers/CelCompanies/",
+        "buttomText": "View more about"
+    },
+    "projeto-15": {
+        "id": 15,
+        "img": "./img/capapaytient.png",
+        "title": "React.js + Next.js + ChakraUi",
+        "subtitle": "Paytient panel",
+        "description": "Front-End application maked of a admin panel",
+        "category": "web",
+        "link": "https://github.com/WelliWillers/project--panel-paytient",
+        "buttomText": "View more about"
     }
 }
