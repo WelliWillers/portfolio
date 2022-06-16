@@ -8,7 +8,7 @@ npm run build
 cd dist
 
 git init
-git remote add origin git@github.com:WelliWillers/portfolio.git
+git remote add origin https://github.com/WelliWillers/portfolio.git
 git add .
 git commit -m 'deploy dist to production'
 
