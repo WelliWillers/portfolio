@@ -127,7 +127,7 @@
         "subtitle": "Clone style site Tesla",
         "description": "Application made from a video on youtube to learn some new css features",
         "category": "web",
-        "link": "hhttps://github.com/WelliWillers/clone_ui_tesla_website",
+        "link": "https://github.com/WelliWillers/clone_ui_tesla_website",
         "buttomText": "View more about"
     },
     "projeto-14": {
@@ -148,6 +148,26 @@
         "description": "Front-End application maked of a admin panel",
         "category": "web",
         "link": "https://github.com/WelliWillers/project--panel-paytient",
+        "buttomText": "View more about"
+    },
+    "projeto-16": {
+        "id": 16,
+        "img": "./img/capafindcity.png",
+        "title": "React.js + Next.js + ChakraUi",
+        "subtitle": "Find.City",
+        "description": "Front-End application marked with a fake REST API to find the bests cities to live",
+        "category": "web",
+        "link": "https://github.com/WelliWillers/findcity",
+        "buttomText": "View more about"
+    },
+    "projeto-17": {
+        "id": 17,
+        "img": "https://raw.githubusercontent.com/WelliWillers/you-search/main/public/capa.png",
+        "title": "Vue.js + VuetifyJs",
+        "subtitle": "YouSearch",
+        "description": "Front-End application maked of a admin panel",
+        "category": "web",
+        "link": "https://github.com/WelliWillers/you-search",
         "buttomText": "View more about"
     }
 }

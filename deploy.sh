@@ -1,6 +1,6 @@
 set -e
 git add .
-git commit -m "Commit de atualização de conteúdo "
+git commit -m "Commit de atualização de conteúdo do portfolio"
 git push origin master
 
 npm run build

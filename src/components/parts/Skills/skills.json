@@ -22,7 +22,7 @@
             },
             "react": {
                 "name": "REACT.JS",
-                "porcent": "80",
+                "porcent": "85",
                 "variant": "success"
             },
             "reactnative": {
@@ -32,8 +32,8 @@
             },
             "nextjs": {
                 "name": "NEXT.JS",
-                "porcent": "60",
-                "variant": "warning"
+                "porcent": "70",
+                "variant": "success"
             },
             "vue": {
                 "name": "VUE.JS",
@@ -71,7 +71,7 @@
             "mysql": {
                 "name": "MySql",
                 "porcent": "70",
-                "variant": "warning"
+                "variant": "success"
             },
             "firebase": {
                 "name": "Firebase",
@@ -84,8 +84,8 @@
                 "variant": "danger"
             },
             "docker": {
-                "name": "Docker containers",
-                "porcent": "70",
+                "name": "Docker",
+                "porcent": "75",
                 "variant": "success"
             }
         }
@@ -108,8 +108,8 @@
             },
             "github/lab": {
                 "name": "GitHub",
-                "porcent": "80",
-                "variant": "warning"
+                "porcent": "85",
+                "variant": "success"
             }
         }
     },
@@ -131,7 +131,7 @@
             },
             "didactic": {
                 "name": "Didactic",
-                "porcent": "85",
+                "porcent": "90",
                 "variant": "success"
             },
             "agile methodologies": {
