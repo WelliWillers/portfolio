@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="about__buttons">
-                    <a href="@/assets/pdf/Profile.pdf" download="" class="button button--flex">
+                    <a href="https://github.com/WelliWillers/portfolio/blob/master/src/assets/pdf/Profile.pdf" download="" class="button button--flex">
                         Download CV <i class="uil uil-file-download-alt about__icon"></i>
                     </a>
                 </div>
