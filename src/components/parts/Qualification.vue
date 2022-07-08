@@ -126,13 +126,47 @@
                             <span class="qualification__subtitle">Rocketseat</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2021B - In progress
+                                2021B - 2022A<br/>
+                                <strong><a href="/ignite.pdf" target="_blank">See certificate</a></strong>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Ignite - ReactJs new trail</h3>
+                            <span class="qualification__subtitle">Rocketseat</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022A - in progress
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- qualificação 3 -->
+                    <div class="qualification__data">
+                        <div class="qualification__left">
+                            <h3 class="qualification__title">Ignite - NodeJs</h3>
+                            <span class="qualification__subtitle">Rocketseat</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022A - in progress
                             </div>
                         </div>
                         <div>
                             <span class="qualification__rounder"></span>
                         </div>
                     </div>
+
                 </div>
 
 
@@ -299,6 +333,9 @@ export default {
         font-size: .7rem;
         color: var(--text-color-light);
         margin-bottom: var(--mb-1);
+    }
+    .qualification__calendar strong {
+        color: var(--first-color);
     }
     .qualification__rounder{
         display: inline-block;

@@ -3,7 +3,7 @@
         "id": 1,
         "icon": "uil uil-brackets-curly",
         "name": "FrontEnd",
-        "description": "More than 3 years",
+        "description": "More than 4 years",
         "percents": {
             "html": {
                 "name": "HTML",
@@ -79,7 +79,7 @@
                 "variant": "warning"
             },
             "node": {
-                "name": "NODE JS (next study)",
+                "name": "NODE JS (Studing)",
                 "porcent": "15",
                 "variant": "danger"
             },
@@ -103,12 +103,12 @@
             },
             "vscode": {
                 "name": "vscode",
-                "porcent": "95",
+                "porcent": "99",
                 "variant": "success"
             },
             "github/lab": {
                 "name": "GitHub",
-                "porcent": "85",
+                "porcent": "88",
                 "variant": "success"
             }
         }
@@ -119,6 +119,11 @@
         "name": "Character",
         "description": "In my person",
         "percents": {
+            "inglish": {
+                "name": "Inglish",
+                "porcent": "50",
+                "variant": "warning"
+            },
             "communicative": {
                 "name": "Communicative",
                 "porcent": "98",
