@@ -4,7 +4,7 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container__page grid__page">
-            <img src="@/assets/img/perfil-2.png" alt="" class="about__img">
+            <img src="https://github.com/welliwillers.png" alt="" class="about__img">
 
             <div class="about__data">
                 <p class="about__description">
@@ -34,11 +34,11 @@
                     </div>
                 </div>
 
-                <!-- <div class="about__buttons">
-                    <a href="@/assets/pdf/Welli-Cv.pdf" download="" class="button button--flex">
+                <div class="about__buttons">
+                    <a href="@/assets/pdf/Profile.pdf" download="" class="button button--flex">
                         Download CV <i class="uil uil-file-download-alt about__icon"></i>
                     </a>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>

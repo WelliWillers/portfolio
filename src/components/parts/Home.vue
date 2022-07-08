@@ -33,7 +33,7 @@
                             165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home__blob-img" x="0" y="0" xlink:href="../../assets/img/perfil.png"/>
+                            <image class="home__blob-img" x="0" y="0" xlink:href="https://media-exp1.licdn.com/dms/image/D4E03AQE0tg39N4D5vw/profile-displayphoto-shrink_800_800/0/1655934016301?e=1662595200&v=beta&t=_OpM19X6RWzs9XQWp9JeWfCsleYsvuHxwi_6HT2ccUE"/>
                         </g>
                     </svg>
   

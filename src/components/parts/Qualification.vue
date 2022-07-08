@@ -127,7 +127,7 @@
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
                                 2021B - 2022A<br/>
-                                <strong><a href="/ignite.pdf" target="_blank">See certificate</a></strong>
+                                <strong><a href="https://app.rocketseat.com.br/certificates/a4a8eddd-7dfc-4a8f-9e0b-f079a3f9d698" target="_blank">See certificate</a></strong>
                             </div>
                         </div>
                         <div>
